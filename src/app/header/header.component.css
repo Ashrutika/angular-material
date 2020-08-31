@@ -1,0 +1,44 @@
+p.header{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+   z-index:10;
+}
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .nav a{
+      margin:5px;
+      cursor: pointer;
+  }
+  .nav a:hover{
+      color: blue;
+      box-shadow: none;
+  }
+  .example-icon:hover{
+      color:blue;
+  }
+  .example-icon{
+      color:white;
+  }
+
+  mat-sidenav-container{
+      height:100%;
+      background-color: white !important;
+  }
+  mat-sidenav,mat-sidenav-content{
+      padding: 16px;
+      background-color: none;
+  }
+  mat-sidenav{
+      background-color: lightblue;
+      width:200px;
+      z-index:100;
+  }
+  mat-toolbar{
+      background-color:lightblue;
+  }
+  .appname{
+      color:white;
+      font-size: 30px;
+  }

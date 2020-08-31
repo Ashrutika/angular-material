@@ -1,0 +1,27 @@
+<!-- <mat-grid-list cols="4" rowHeight="1:1.6"> -->
+  <div class="card">
+  <!-- <mat-grid-tile  *ngFor="let place of places"> -->
+<mat-card class="example-card" *ngFor="let place of places">
+    <mat-card-header>
+      <mat-card-title>{{place.title}}</mat-card-title>
+      <mat-card-subtitle>{{place.subtitle}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="assets/treks/{{place.img}}" alt="Photo of a Shiba Inu">
+    <mat-card-content>
+      <p class="info">
+        {{place.discription}}
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with favorite icon">
+        <mat-icon class="fav" (click)="count(place.id)">favorite</mat-icon>
+      </button>
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+        <mat-icon style="color:blue">share</mat-icon>
+      </button>
+    </mat-card-actions>
+  </mat-card>
+<!-- </mat-grid-tile> -->
+</div>
+<!-- </mat-grid-list> -->
+

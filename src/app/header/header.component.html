@@ -1,0 +1,37 @@
+<p class="header">
+  <mat-toolbar >
+   <button mat-icon-button class="example-icon"  aria-label="Example icon-button with menu icon" (click)="drawer.toggle()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span class="appname"><strong>Tourista</strong></span>
+  <span class="example-spacer"></span>
+ <nav class="nav">
+  <a mat-raised-button [routerLink]="['/slider']">Slider</a>
+  <a mat-raised-button [routerLink]="['/login']">Login</a>
+  <a mat-raised-button [routerLink]="['/signup']">Signup</a>
+ </nav>
+</mat-toolbar>
+</p>
+    <mat-sidenav-container>
+      <mat-sidenav mode="push" #drawer>Sidenav
+          <mat-nav-list>
+            <a mat-list-item href="/place"> Home</a>
+            <mat-divider></mat-divider>
+            <a mat-list-item href="/favorites"> Favorites</a>
+            <mat-divider></mat-divider>
+            <a mat-list-item href="#"> About</a>
+            <mat-divider></mat-divider>
+            <a mat-list-item href="#"> States</a>
+            <mat-divider></mat-divider>
+            <a mat-list-item href="#"> Cities</a>
+            <mat-divider></mat-divider>
+            <a mat-list-item href="#"> Contact</a>
+         </mat-nav-list>
+      </mat-sidenav>
+      <mat-sidenav-content>
+        <router-outlet></router-outlet>
+      </mat-sidenav-content>
+    </mat-sidenav-container>
+    
+    
+    

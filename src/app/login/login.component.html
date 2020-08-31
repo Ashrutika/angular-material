@@ -1,0 +1,27 @@
+
+            <mat-card class="example-card">
+            <mat-card-title>Login</mat-card-title>
+          <p>
+        <mat-form-field appearance="legacy" hideRequiredMarker>
+          <mat-label>Enter Email</mat-label>
+          <input matInput placeholder="pat@example.com" ngModel #email="ngModel" name="email" required>
+          <mat-error *ngIf="email.invalid && email.errors.required">Invalid input</mat-error>
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="legacy" hideRequiredMarker>
+          <mat-label>Enter Password</mat-label>
+          <input matInput [type]="hide ? 'password' : 'text'" ngModel #password="ngModel" name="password" required>
+          <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+          <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </button>
+          <mat-error *ngIf="password.invalid && password.errors.required">Invalid input</mat-error>
+        </mat-form-field>
+      </p>
+      <p>
+      <a mat-raised-button id="login" [routerLink]="['/']">Login</a>
+    </p>
+    <mat-card-footer>Not Registered? <a [routerLink]="['/signup']">Signup</a></mat-card-footer>
+    </mat-card>
+       
+    

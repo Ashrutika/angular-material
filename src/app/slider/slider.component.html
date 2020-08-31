@@ -1,0 +1,20 @@
+<mat-form-field appearance="fill">
+    <mat-label>Favorite food</mat-label>
+    <mat-select value="" #selectedValue>
+      <mat-option *ngFor="let food of foods" [value]="food.name">
+        {{food.name}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Favorite car</mat-label>
+    <mat-select value="" #selectedCar>
+      <mat-option *ngFor="let car of cars" [value]="car.name">
+        {{car.name}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-slider thumbLabel min={{slider.min}} max={{slider.max}} type="range" step={{slider.step}} value={{slider.defaultvalue}} (change)="display($event.value)" #slidervalue></mat-slider>
+  <h2>{{selectedValue.value}}</h2>
+  <h2>{{selectedCar.value}}</h2>
+ <h2 *ngFor="let n of numbers">{{n}}</h2>

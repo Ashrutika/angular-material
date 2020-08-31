@@ -1,0 +1,35 @@
+.example-card {
+    max-width: 300px;
+    margin:10px;
+    border-top: 2px solid lightblue;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+  .card{
+    display: inline-flex;
+  }
+img{
+    height:200px;
+  }
+  .example-card:hover{
+    box-shadow: 3px 3px 6px gray;
+  }
+  .info{
+    font-family: "alata";
+  }
+  /* mat-card-actions{
+    bottom:20px;
+    padding:30px;
+  } */
+  mat-card-content{
+    text-align: center;
+  }
+  .fav{
+    color:gray;
+  }
+.fav:hover{
+  color:red;
+}
