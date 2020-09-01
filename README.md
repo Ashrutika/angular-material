@@ -44,7 +44,7 @@
    -  Created mock API
    -  Used Http services(HttpClient.get(),HttpClient.put() and HttpClient.delete())
   
-# Refrences:
+### Refrences:
 1. https://www.youtube.com/watch?v=DwTNR3EBSJQ&list=PL4cUxeGkcC9jqhk5RvBiEwHMKSUXPyng0&index=1
 2. https://angular.io/tutorial
 
@@ -52,7 +52,7 @@
 1. Learned to include Angular Material in Angular Project
 2. Learned to add a button, card, icons, sidenav, toolbar, slider, dropdown list, nav-list, divider
 
-# References:
+### References:
 1. https://material.angular.io/guide/getting-started
 2. https://www.youtube.com/watch?v=bV8emCBmFHk&list=PLC3y8-rFHvwilEuCqFGTL5Gt5U6deIrsU
 3. https://www.youtube.com/watch?v=wPT3K3w6JtU 
