@@ -8,8 +8,8 @@
        -   sudo n <latest-version>
        -   sudo n lts
   
-  b. Installing angular CLI
-     i. sudo npm install -g @angular/cli
+  -   Installing angular CLI
+      -   sudo npm install -g @angular/cli
      ii. ng new <project_name> (initialize the application)
      iii. cd <project_name>
      iv. ng serve --open (run the application)
