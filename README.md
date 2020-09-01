@@ -4,9 +4,9 @@
 1. Learned how to setup an angular application [Tutorial](https://www.youtube.com/watch?v=DwTNR3EBSJQ&list=PL4cUxeGkcC9jqhk5RvBiEwHMKSUXPyng0&index=1)
    -  a. Updating the Nodejs and npm to latest version
       -  i. sudo npm install npm@latest -g
-     ii. sudo npm install -g n
-     iii. sudo n <latest-version>
-     iv. sudo n lts
+      -  ii. sudo npm install -g n
+      -  iii. sudo n <latest-version>
+      -  iv. sudo n lts
   
   b. Installing angular CLI
      i. sudo npm install -g @angular/cli
