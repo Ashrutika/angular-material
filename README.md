@@ -8,11 +8,11 @@
        -   sudo n <latest-version>
        -   sudo n lts
   
-  -   Installing angular CLI
-      -   sudo npm install -g @angular/cli
-     ii. ng new <project_name> (initialize the application)
-     iii. cd <project_name>
-     iv. ng serve --open (run the application)
+    -   Installing angular CLI
+        -   sudo npm install -g @angular/cli
+        -  ng new <project_name> (initialize the application)
+        -  cd <project_name>
+        -  ng serve --open (run the application)
     
   c. To create a component
       ng generate component <component_name>
