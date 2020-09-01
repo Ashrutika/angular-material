@@ -44,7 +44,7 @@
    -  Created mock API
    -  Used Http services(HttpClient.get(),HttpClient.put() and HttpClient.delete())
   
-### Refrences:
+### References:
 1. https://www.youtube.com/watch?v=DwTNR3EBSJQ&list=PL4cUxeGkcC9jqhk5RvBiEwHMKSUXPyng0&index=1
 2. https://angular.io/tutorial
 
