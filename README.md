@@ -14,35 +14,35 @@
         -  cd <project_name>
         -  ng serve --open (run the application)
     
-  c. To create a component
-      ng generate component <component_name>
+    -   To create a component
+        -   ng generate component <component_name>
     
-  d. To create a service
-      ng generate service <service_name>
+    -  To create a service
+       -   ng generate service <service_name>
     
-  e. To create a module
-      ng generate module <module_name>
+    -  To create a module
+       -  ng generate module <module_name>
     
 2. Learned following basic concepts:
-   a. Components(it includes logic and the data)
-   b. Templates(it includes the view)
-   c. Directives
-     i. Attribute directives(ngStyle and ngClass)
-     ii. Structural directives(ngIf,ngFor)
-  d. Data binding(property binding, event binding, two way data binding)
-     i. ngModel is used for two-way data binding.
-     ii. learned custom property binding(@input()) and custom event binding(@output())
-  e. pipe (for data formatting)
-  f. created custom pipe to filter the data 
-      ng generate pipe <pipe_name>
-  g. Routing and Services
-  f. Observable and subscriber
+    -  Components(it includes logic and the data)
+    -  Templates(it includes the view)
+    -  Directives
+       -   Attribute directives(ngStyle and ngClass)
+       -   Structural directives(ngIf,ngFor)
+   -  Data binding(property binding, event binding, two way data binding)
+      -  ngModel is used for two-way data binding.
+      -  learned custom property binding(@input()) and custom event binding(@output())
+   -  pipe (for data formatting)
+   -  created custom pipe to filter the data 
+      -  ng generate pipe <pipe_name>
+   -  Routing and Services
+   -  Observable and subscriber
   
 3. Learned API Integration [Link](https://medium.com/@websleengur/mock-data-for-angular-5-applications-with-json-server-part-1-d377eced223b)
-   a. Installed json-server
-     sudo npm install -g json-server
-   b. Created mock API
-   c. Used Http services(HttpClient.get(),HttpClient.put() and HttpClient.delete())
+   -  Installed json-server
+      -  sudo npm install -g json-server
+   -  Created mock API
+   -  Used Http services(HttpClient.get(),HttpClient.put() and HttpClient.delete())
   
 # Refrences:
 1. https://www.youtube.com/watch?v=DwTNR3EBSJQ&list=PL4cUxeGkcC9jqhk5RvBiEwHMKSUXPyng0&index=1
